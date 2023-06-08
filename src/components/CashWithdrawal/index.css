@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  background-color: #150b3e;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 400px;
+  height: 500px;
+}
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  border-width: 0px;
+  width: 50px;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+.name {
+  color: #c7d2fe;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.balance-title {
+  color: #585076;
+  font-size: 20px;
+}
+.balance-amount {
+  font-size: 24px;
+  color: #d4d2db;
+  margin-bottom: 0px;
+}
+.balance-currency {
+  font-size: 16px;
+  color: #585076;
+  margin-top: 0px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.withdraw-title {
+  color: #d4d2db;
+  font-size: 24px;
+}
+.denomination-title {
+  color: #585076;
+  font-size: 12px;
+}
+.button {
+  background-color: #585076;
+  padding: 10px;
+  font-size: 14px;
+  width: 90px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d4d2db;
+  color: #d4d2db;
+  font-weight: 500;
+  margin: 15px;
+}
+.denomination-buttons-container {
+  max-width: 240px;
+  list-style-type: none;
+}
